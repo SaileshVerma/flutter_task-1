@@ -18,10 +18,10 @@ class _MapBoxState extends State<MapBox> {
         layers: [
           new TileLayerOptions(
             urlTemplate:
-                "https://api.mapbox.com/styles/v1/sailesh150/ckghx50w21u4w19mowiz4shnv/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1Ijoic2FpbGVzaDE1MCIsImEiOiJja2dkYmU2aGMwaGI2MnFvN3JmdjVwY2Q3In0.hKCVREGWZY7BM6knyJPFsA",
+                "https://api.mapbox.com/styles/v1/sailesh150/ckghx50w21u4w19mowiz4shnv/tiles/256/{z}/{x}/{y}@2x?access_token=[mapbboxToken]",
             additionalOptions: {
               'accessToken':
-                  'pk.eyJ1Ijoic2FpbGVzaDE1MCIsImEiOiJja2dkYmU2aGMwaGI2MnFvN3JmdjVwY2Q3In0.hKCVREGWZY7BM6knyJPFsA',
+                  '[token]',
               'id': 'mapbox.satellite',
             },
           ),
